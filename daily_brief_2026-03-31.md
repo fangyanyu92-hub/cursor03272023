@@ -2,7 +2,7 @@
 
 - **日期**：2026-03-31  
 - **本 run 覆盖时间范围**：主题类（过去 24h～30 天）；专家相关（过去 7～30 天）  
-- **本期是否含「移动端动效」专项条目**：是（`Usability Hasn’t Peaked`、`iOS 26 动画节奏调整`）
+- **本期是否含「移动端动效」专项条目**：是（`Usability Hasn’t Peaked`、`OmniLottie`、`iQOO 15R hands-on review`）
 
 ---
 
