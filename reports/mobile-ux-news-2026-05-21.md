@@ -1,6 +1,6 @@
 **日期**：2026-05-21  
 **本 run 覆盖的时间范围**：主题类优先覆盖 2026-05-20 01:24 UTC 之后的新发布，并扩展至过去 24 小时～30 天；专家观点/动态覆盖过去 7～30 天。  
-**本期是否含「移动端动效」专项条目**：是。重点可先看《Rive Animations + GenUI: Flutter Integration Guide》《ColorOS 16.1 Brings Live Space...》与《5 个微观交互，让任何产品都显得高端》。
+**本期是否含「移动端动效」专项条目**：是。重点可先看《Rive Animations + GenUI: Flutter Integration Guide》与《ColorOS 16.1 Brings Live Space...》。
 
 ---
 
