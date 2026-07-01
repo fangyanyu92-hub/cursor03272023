@@ -5,7 +5,7 @@
 **本期是否含「移动端动效」专项条目**：是。重点可快速扫读：
 - [MoSound: An Interactive Tool for Generative Sound Design in Motion Graphics]
 - [Motion with Intent: How Animation Earns Its Place in Mobile UI]
-- [One UI 8 vs iOS 26: Which Beta OS has better animations?]
+- [iOS 26 Vs One UI 8.5: Apple Gets Smarter, Samsung Stays Flexible]
 
 ---
 
@@ -105,19 +105,19 @@
 
 ---
 
-### [One UI 8 vs iOS 26: Which Beta OS has better animations?]
+### [iOS 26 Vs One UI 8.5: Apple Gets Smarter, Samsung Stays Flexible]
 
-**来源**：Sammy Fans / Yash Rathore  
+**来源**：Cashify  
 **类型**：移动设备竞品分析  
 **是否与动效相关**：是（系统转场动画 / 流畅度竞品）
 
-**摘要**：文章基于 iOS 26 Beta 2 与 One UI 8 Beta 2 的视频对比，认为当前 One UI 8 在应用开合、桌面滑动、通知/快捷面板等场景更稳定流畅，而 iOS 26 的 Liquid Glass 视觉方向仍有卡顿和停顿问题。对动效学习的价值是：系统级动效要同时评估“美感方向”和“交互响应”。
+**摘要**：Cashify 将 iOS 26 与 One UI 8.5 的差异归纳为“流畅视觉”与“速度响应”的不同取向：iOS 26 借 Liquid Glass 强调自然、弹性、沉浸的系统动效，One UI 8.5 则强调更快启动、滚动、多任务和导航反馈。对动效学习的价值是：系统级动效要同时评估“高级感”和“效率感”。
 
 **详细展开**
-- **背景与问题**：Apple 以 Liquid Glass 强调玻璃感、弹性和视觉沉浸，Samsung One UI 8 则在 One UI 7 基础上继续打磨流畅度；两者都是移动系统动效风格的高关注竞品。
-- **主要发现/方法/功能/观点**：文章观察到 iOS 26 Beta 2 在应用打开/关闭、桌面翻页和下拉面板时存在卡顿、暂停或冻结；One UI 8 Beta 2 则更接近稳定版的顺滑体验。但作者也提示两者仍是 Beta，后续版本可能改善。
-- **启示（含动效）**：做移动端竞品分析时，不能只截取“设计语言”静态图，还应拆解高频路径：启动、返回、多任务、下拉面板、桌面滑动、键盘弹出。用研指标可同时记录主观“高级感”和客观/半客观“等待感、掉帧感、误触恢复成本”。
-- **原文链接**：https://www.sammyfans.com/2025/06/25/one-ui-8-vs-ios-26-which-beta-os-has-better-animations/
+- **背景与问题**：Apple 的 iOS 26 以 Liquid Glass 引入半透明菜单、浮动界面元素、玻璃质感图标和动态效果；Samsung 的 One UI 8.5 更像成熟系统的精修，强调多任务、深度自定义和更实用的手机工作流。
+- **主要发现/方法/功能/观点**：文章认为 iOS 26 的转场更自然、更精致，但可能让快速切换任务的用户感觉系统略慢；One UI 8.5 在应用启动、滚动、多任务和导航上更“snappy”，并通过更干净的动画和底部导航等调整改善单手使用。
+- **启示（含动效）**：做移动端竞品分析时，不能只截取“设计语言”静态图，还应拆解高频路径：启动、返回、多任务、下拉面板、桌面滑动、键盘弹出。用研指标可同时记录主观“高级感”、主观“响应快感”和客观/半客观“等待感、掉帧感、误触恢复成本”。
+- **原文链接**：https://www.cashify.in/ios-26-vs-one-ui-8-5-apple-gets-smarter-samsung-stays-flexible
 
 ---
 
