@@ -63,7 +63,7 @@
 **详细展开**
 - **背景与问题**：Figma Motion 上线后，团队容易把「能在时间轴里播放」误认为「能在 App 中响应输入」。这会在设计交付阶段遗漏加载完成、错误、按压、中断、弱网和 Reduce Motion 等真实状态。
 - **主要发现/方法/功能/观点**：截至文章发布时，Figma Motion 以 artboard 单时间轴、关键帧和曲线编辑为主，可导出 MP4、WebM、GIF 或 animated SVG；文章称其没有生产级状态机、条件逻辑和数据绑定。Rive 则可用多动画、状态机、输入和运行时数据驱动组件行为，更适合需要原生响应的 iOS、Android 与跨端组件。
-- **对快速掌握移动端动效的启示**：学习顺序可分两层：先用 Figma Motion练构图、节奏、缓动与叙事，再用 Rive 或原生框架练 `idle → pressed → loading → success/error` 状态图和可中断转场。由于作者经营 Rive 培训产品，选型结论存在利益相关，且 Figma Motion 仍在演进；落地前应以两家官方文档和真机性能测试复核功能边界。
+- **对快速掌握移动端动效的启示**：学习顺序可分两层：先用 Figma Motion 练构图、节奏、缓动与叙事，再用 Rive 或原生框架练 `idle → pressed → loading → success/error` 状态图和可中断转场。由于作者经营 Rive 培训产品，选型结论存在利益相关，且 Figma Motion 仍在演进；落地前应以两家官方文档和真机性能测试复核功能边界。
 - **原文链接**：https://www.rivemasterclass.com/blog/figma-motion-vs-rive
 
 ---
