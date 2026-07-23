@@ -1,15 +1,15 @@
 # 移动端用户研究 × AI 产品 × 动效每日资讯
 
-**日期**：2026 年 7 月 23 日  
-**本 run 覆盖时间范围**：主题类优先检索 2026-06-23～2026-07-23（重点关注上次 run 结束时间 2026-07-22 01:04 UTC 之后的新发布）；专家类检索近 7～30 天。  
-**本期含「移动端动效」专项条目**：是——[fog：用函数组合表达运动与情绪](#fog用函数组合表达运动与情绪)、[Figma Motion 与 Rive 到底有什么不同](#figma-motion-与-rive-到底有什么不同)、[Android 17 正式版功能总览](#android-17-正式版功能总览material-3-expressive-与可中断的最近任务动效)。  
+**日期**：2026 年 7 月 23 日
+**本 run 覆盖时间范围**：主题类优先检索 2026-06-23～2026-07-23（重点关注上次 run 结束时间 2026-07-22 01:04 UTC 之后的新发布）；专家类检索近 7～30 天。
+**本期含「移动端动效」专项条目**：是——[fog：用函数组合表达运动与情绪](#fog用函数组合表达运动与情绪)、[Figma Motion 与 Rive 到底有什么不同](#figma-motion-与-rive-到底有什么不同)、[Android 17 正式版功能总览](#android-17-正式版功能总览material-3-expressive-与可中断的最近任务动效)。
 **去重说明**：已排除近 14 天推送过的 Google「Usability Hasn’t Peaked」、Apple FlowEval、HyMobileAgent、Figma Motion 官方发布、Compose Animation 更新及近期系统动效对比等条目。本期专家内容为 Kate Moran 所在机构 NN/g 的近期研究框架，并非 Kate Moran 本人新发布。
 
 ---
 
 ### [Proactive Agent Research Environment：用主动用户模拟评测主动式助手]
-**来源**：Apple Machine Learning Research（Apple、UCSB、University of Washington 等）  
-**类型**：方法论  
+**来源**：Apple Machine Learning Research（Apple、UCSB、University of Washington 等）
+**类型**：方法论
 **是否与动效相关**：否
 
 **摘要**：Apple 在 2026 年 7 月发布 Pare，把移动应用建模为有限状态机，并用 143 个跨应用任务评测主动式助手的观察、意图推断、介入时机与执行能力。它对 AI 产品经理最重要的提醒是：主动体验不能只看工具调用是否成功，还要同时测「是否该打扰用户」和「用户是否接受方案」。
@@ -23,8 +23,8 @@
 ---
 
 ### [Environment-free Synthetic Data Generation：只有 API 规范，也能生成代理训练轨迹]
-**来源**：Apple Machine Learning Research / arXiv  
-**类型**：方法论  
+**来源**：Apple Machine Learning Research / arXiv
+**类型**：方法论
 **是否与动效相关**：否
 
 **摘要**：这项 7 月 18 日提交的研究提出「无可执行环境」的代理数据生成流程：只给 API 规范，由 LLM 生成任务、模拟状态化 API 响应，再用 LLM judge 过滤轨迹。对 AI 产品团队的价值在于，可在后端尚未完工时提前构造覆盖面较广的代理测试与训练素材。
@@ -33,14 +33,13 @@
 - **背景与问题**：高质量 API 调用轨迹通常依赖可运行接口、预置数据库和完整测试环境，导致新场景的数据建设速度受后端工程进度限制。
 - **主要发现/方法/功能/观点**：流程先生成可由目标 API 完成的任务，再由 teacher agent 逐步求解；LLM simulator 根据任务上下文和历史生成连贯响应，最后由 judge 筛除低质量轨迹。作者在 AppWorld 与 OfficeBench 的信息检索、状态改变任务上评测，并报告微调后有显著性能提升；公开摘要没有给出可直接比较的完整效应量，因此不应把「显著提升」解读为所有业务环境均有效。
 - **启示**：AI 产品经理可用这套思路做「规范先行」评测：从 API schema 生成任务矩阵、异常响应和跨工具链路，再把真实环境回放作为上线门槛。合成世界模型可能遗漏权限、延迟、脏数据与用户误操作，必须用真实日志、沙盒执行和人工抽检校准，不能以 LLM judge 代替用户研究。
-- **原文链接**：https://machinelearning.apple.com/research/environment-free  
-  预印本：https://arxiv.org/abs/2607.16900
+- **原文链接**：https://machinelearning.apple.com/research/environment-free（预印本：https://arxiv.org/abs/2607.16900）
 
 ---
 
 ### [fog：用函数组合表达运动与情绪]
-**来源**：Columbia University / arXiv  
-**类型**：方法论  
+**来源**：Columbia University / arXiv
+**类型**：方法论
 **是否与动效相关**：是（表达性动效 / AI 动画编辑 / 运动语义）
 
 **摘要**：fog 把动作拆成 Verb、Adverb、Gesture、Emotion 等可组合函数，并把提示词、直接操控、路径绘制和参数探索放进同一动画编辑器。它提示移动端动效团队：比起只存时长和缓动，动效系统还可以显式编码「迟疑、急迫、攻击性」等运动语义。
@@ -54,8 +53,8 @@
 ---
 
 ### [Figma Motion 与 Rive 到底有什么不同]
-**来源**：Rive Masterclass（独立培训站点，非 Figma 或 Rive 官方对比）  
-**类型**：工具  
+**来源**：Rive Masterclass（独立培训站点，非 Figma 或 Rive 官方对比）
+**类型**：工具
 **是否与动效相关**：是（动效工具选型 / 状态机 / 运行时交互）
 
 **摘要**：文章把两类工作清晰分开：Figma Motion 适合在设计文件里制作线性关键帧与交付演示，Rive 适合把状态机、数据绑定和交互逻辑带进产品运行时。对移动端动效学习而言，核心不是先站队工具，而是先判断交付物是「固定序列」还是「会响应应用状态的行为」。
@@ -69,8 +68,8 @@
 ---
 
 ### [Android 17 正式版功能总览：Material 3 Expressive 与可中断的最近任务动效]
-**来源**：Android Authority  
-**类型**：移动设备竞品分析  
+**来源**：Android Authority
+**类型**：移动设备竞品分析
 **是否与动效相关**：是（系统动效 / 触控响应 / Material 3 Expressive）
 
 **摘要**：这份 7 月 2 日更新的系统拆解显示，Android 17 的体验重点并非单纯增加动画，而是让动效更有弹性、触控更连续：例如最近任务列表不再等待上一段移除动画完成才接受下一次滑动。对竞品研究而言，这类「输入是否被动效锁住」比只比较动画是否顺滑更接近真实效率。
@@ -84,8 +83,8 @@
 ---
 
 ### [专家相关｜NN/g：站点型 AI 聊天机器人的五个设计维度]
-**来源**：Nielsen Norman Group（Kate Moran 所在机构；作者 Georgia Kenderova、Tanner Kohler）  
-**类型**：专家观点/动态  
+**来源**：Nielsen Norman Group（Kate Moran 所在机构；作者 Georgia Kenderova、Tanner Kohler）
+**类型**：专家观点/动态
 **是否与动效相关**：否
 
 **摘要**：NN/g 将站点型 AI 聊天机器人拆成五个可评审维度：转人工意愿、灵活性、主动性、情绪响应与透明度。它为 AI 产品经理提供了一个比「回答准确率」更完整的体验评审表，但官方文章未公开足够的样本与统计细节，不应把它当成已验证权重模型。
