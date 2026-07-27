@@ -1,2 +1,4 @@
 # cursor03272023
-For cursor 
+
+Daily mobile UX research + motion design briefs live under `briefs/`.
+
